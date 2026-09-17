@@ -8,7 +8,7 @@ public class hashingMap {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
+        // Ram
         HashMap<Integer, Integer> hash = new HashMap<>();
         for (int i = 0; i < n; i++) {
             int key = arr[i];
@@ -18,6 +18,7 @@ public class hashingMap {
 
             }
             freq++;
+
             hash.put(key, freq);
 
         }
